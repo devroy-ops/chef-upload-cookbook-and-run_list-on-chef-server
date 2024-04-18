@@ -1,0 +1,4 @@
+#(chef-repo) knife cookbook upload apache-cookbook
+#(chef-repo) knife node list
+#(chef-repo) knife node run_list set node1 "recipe[apache-cookbook::apache-recipe]"
+#(chef-repo) knife node show node1
